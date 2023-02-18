@@ -8,7 +8,7 @@ let pub = numbers.publisher    //publisher 생성
 //MARK: - Subscriber
 //sink로 publisher subscribe
 let sub = pub.sink(receiveCompletion: {
-    print($0)
+    print("received completion: \($0)")
 }, receiveValue: {
-    print($0)
+    print("received value: \($0)")
 })
