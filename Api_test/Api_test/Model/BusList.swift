@@ -32,7 +32,7 @@ struct BusList_Items: Codable {
 // MARK: - Item
 struct BusList_Item: Codable {
     let arrprevstationcnt, arrtime: Int
-    let nodeid: Nodeid
+    let nodeid: String
     let nodenm: Nodenm
     let routeid: String
     let routeno: Routeno
@@ -41,11 +41,11 @@ struct BusList_Item: Codable {
 }
 
 enum Nodeid: String, Codable {
-    case ggb228000158 = "GGB228000158"
+    case ggb206000535 = "GGB206000535"
 }
 
 enum Nodenm: String, Codable {
-    case 동백이마트 = "동백이마트"
+    case 판교역낙생육교현대백화점 = "판교역.낙생육교.현대백화점"
 }
 
 enum Routeno: Codable {
@@ -83,6 +83,7 @@ enum Routetp: String, Codable {
 
 enum Vehicletp: String, Codable {
     case 일반차량 = "일반차량"
+    case 저상버스 = "저상버스"
 }
 
 // MARK: - Header

@@ -7,16 +7,14 @@
 
 import SwiftUI
 
-struct ShowArriveBus: View {
-    @Binding var showNext: Bool
-    
+struct ShowArriveBus: View {    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("버스 도착 정보 리스트")
     }
 }
 
 struct ShowArriveBus_Previews: PreviewProvider {
     static var previews: some View {
-        ShowArriveBus(showNext: .constant(true))
+        ShowArriveBus()
     }
 }

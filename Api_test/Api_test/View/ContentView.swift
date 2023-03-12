@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showNextPage: Bool = false
-    @StateObject var busStop: Model = Model()
     @StateObject var busList: Model = Model()
     
     var body: some View {
         VStack {
             NavigationView {
-                NavigationLink("BusStop 정보", destination: {
-                    ShowArriveBus(showNext: $showNextPage)
+                NavigationLink("버스 도착 정보", destination: {
+                    ShowArriveBus()
                         .onAppear(perform: {
                             self.busList.fetchBusList()
                         })

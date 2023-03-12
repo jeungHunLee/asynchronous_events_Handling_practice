@@ -40,3 +40,4 @@ struct Item: Codable {
 struct Header: Codable {
     let resultCode, resultMsg: String
 }
+
