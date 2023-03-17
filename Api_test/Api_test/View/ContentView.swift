@@ -8,19 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var busList: Model = Model()
+    @StateObject var busList: ViewModel = ViewModel()
     
     var body: some View {
-        VStack {
-            NavigationView {
-                NavigationLink("버스 도착 정보", destination: {
-                    ShowArriveBus()
-                        .onAppear(perform: {
-                            self.busList.fetchBusList()
-                        })
-                })
-            }
-        }
+        Button(action: {
+            busList.printBusList()
+        }, label: {
+            Text("버스 도착 정보")
+        })
     }
 }
 

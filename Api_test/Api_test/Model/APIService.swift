@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-let key = //비공개
+let key = "2iHJaiAhj3is09gMRVLduJ3n3BADIaM4/GnabUgm2z7SylYvZn3uRl3aX3dWmB8CLbDQcI5bGM4FKidusGb/Og=="
 
 struct APIService {
     //버스 정류장 API 호출

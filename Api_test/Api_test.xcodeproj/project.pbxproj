@@ -13,9 +13,8 @@
 		5C22BE7729AEED9F00C4E8C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C22BE7629AEED9F00C4E8C4 /* Preview Assets.xcassets */; };
 		5C22BE7E29AEF45100C4E8C4 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE7D29AEF45100C4E8C4 /* BusStop.swift */; };
 		5C22BE8229AEF78D00C4E8C4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE8129AEF78D00C4E8C4 /* APIService.swift */; };
-		5C22BE8929AF2C1100C4E8C4 /* ShowArriveBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE8829AF2C1100C4E8C4 /* ShowArriveBus.swift */; };
 		5C22BE8B29AF305100C4E8C4 /* BusList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE8A29AF305100C4E8C4 /* BusList.swift */; };
-		5C22BE8D29AF380100C4E8C4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE8C29AF380100C4E8C4 /* Model.swift */; };
+		5C22BE8D29AF380100C4E8C4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22BE8C29AF380100C4E8C4 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +26,8 @@
 		5C22BE7D29AEF45100C4E8C4 /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
 		5C22BE8129AEF78D00C4E8C4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		5C22BE8629AF00D600C4E8C4 /* Api-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Api-test-Info.plist"; sourceTree = SOURCE_ROOT; };
-		5C22BE8829AF2C1100C4E8C4 /* ShowArriveBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowArriveBus.swift; sourceTree = "<group>"; };
 		5C22BE8A29AF305100C4E8C4 /* BusList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusList.swift; sourceTree = "<group>"; };
-		5C22BE8C29AF380100C4E8C4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C22BE8C29AF380100C4E8C4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,7 @@
 				5C22BE8129AEF78D00C4E8C4 /* APIService.swift */,
 				5C22BE7D29AEF45100C4E8C4 /* BusStop.swift */,
 				5C22BE8A29AF305100C4E8C4 /* BusList.swift */,
-				5C22BE8C29AF380100C4E8C4 /* Model.swift */,
+				5C22BE8C29AF380100C4E8C4 /* ViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				5C22BE7129AEED9E00C4E8C4 /* ContentView.swift */,
-				5C22BE8829AF2C1100C4E8C4 /* ShowArriveBus.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,8 +170,7 @@
 				5C22BE7E29AEF45100C4E8C4 /* BusStop.swift in Sources */,
 				5C22BE7229AEED9E00C4E8C4 /* ContentView.swift in Sources */,
 				5C22BE8229AEF78D00C4E8C4 /* APIService.swift in Sources */,
-				5C22BE8D29AF380100C4E8C4 /* Model.swift in Sources */,
-				5C22BE8929AF2C1100C4E8C4 /* ShowArriveBus.swift in Sources */,
+				5C22BE8D29AF380100C4E8C4 /* ViewModel.swift in Sources */,
 				5C22BE8B29AF305100C4E8C4 /* BusList.swift in Sources */,
 				5C22BE7029AEED9E00C4E8C4 /* Api_testApp.swift in Sources */,
 			);
